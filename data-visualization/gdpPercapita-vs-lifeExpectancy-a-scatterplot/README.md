@@ -1,1 +1,2 @@
-## Life Expectancy vs. GDP per Capita
+## Socioeconomic development and life expectancy relationship
+### Life Expectancy vs. GDP per Capita
