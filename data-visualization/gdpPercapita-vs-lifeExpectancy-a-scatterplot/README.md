@@ -1,2 +1,3 @@
 ## Socioeconomic development and life expectancy relationship
-### Life Expectancy vs. GDP per Capita
+### Life Expectancy vs. GDP per Capita: Does incoem affects health?
+
