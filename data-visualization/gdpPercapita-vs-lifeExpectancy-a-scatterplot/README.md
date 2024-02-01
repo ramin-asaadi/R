@@ -22,3 +22,5 @@ gapminder %>%
   theme_cleveland()
 
 ```
+
+![gdpPerCapita_lifeExpectancy](https://github.com/ramin-asaadi/R/assets/155740766/ce90892e-61ff-44fa-98b8-1019baed5fc3)
