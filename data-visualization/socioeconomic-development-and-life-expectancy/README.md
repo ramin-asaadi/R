@@ -8,7 +8,7 @@ library(moderndive)
 library(extrafont)
 library(ggpubr)
 
-(1) GDP per capita on Five Continents
+(1) GDP per capita on Four Continents
 
 gapminder %>%
   filter(continent %in% c("Europe", "Africa", "Americas", "Asia")) %>%
@@ -19,12 +19,15 @@ gapminder %>%
   facet_wrap(~ continent, ncol = 2) +
   labs(x = "Year",
        y = "GDP per capita",
-       title = "GDP per capita on Five Continents") +
+       title = "GDP per capita on Four Continents") +
   #theme(legend.position = "none") +
   theme(text = element_text(size = 14, family = "Futura")) +
   theme_cleveland()
 
 ```
+
+![gdp_plot](https://github.com/ramin-asaadi/R/assets/155740766/b8ecb1f3-f69a-462d-a60a-192d1c8ab736)
+
 
 ```{r}
 
