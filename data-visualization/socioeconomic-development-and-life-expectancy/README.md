@@ -10,16 +10,17 @@ library(ggpubr)
 
 (1) GDP per capita on Five Continents
 
-gapminder %>% 
+gapminder %>%
+  filter(continent %in% c("Europe", "Africa", "Americas", "Asia")) %>%
   ggplot(mapping = aes(x = year, y = gdpPercap)) +
   geom_line(color="orange", aes(group = country)) +
-  geom_smooth(size = 1.1, method = "loess", se = FALSE) +
+  geom_smooth(size = 2, method = "loess", se = FALSE) +
   scale_y_log10(labels=scales::dollar) +
-  facet_wrap(~ continent, ncol = 5) +
+  facet_wrap(~ continent, ncol = 2) +
   labs(x = "Year",
        y = "GDP per capita",
        title = "GDP per capita on Five Continents") +
-  theme(legend.position = "none") +
+  #theme(legend.position = "none") +
   theme(text = element_text(size = 14, family = "Futura")) +
   theme_cleveland()
 
@@ -30,14 +31,17 @@ gapminder %>%
 (2) Life Expectancy on Five Continents
 
 gapminder %>% 
+  filter(continent %in% c("Europe", "Africa", "Americas", "Asia")) %>%
   ggplot(mapping = aes(x = year, y = lifeExp)) +
   geom_line(color="orange", aes(group = country)) +
-  geom_smooth(size = 1.1, method = "loess", se = FALSE) +
-  scale_y_log10(labels=scales::dollar) +
-  facet_wrap(~ continent, ncol = 5) +
+  geom_smooth(size = 2, method = "loess", se = FALSE) +
+  #scale_y_log10(labels=scales::dollar) +
+  facet_wrap(~ continent, ncol = 2) +
   labs(x = "Year",
-       y = "Life Expectacy") +
-  theme_pubclean()
+       y = "Life Expectancy",
+       title = "Life Expectancy on Five Continents") +
+  theme(text = element_text(size = 14, family = "Futura")) +
+  theme_cleveland() 
 
 
 ```
