@@ -20,13 +20,13 @@ gapminder %>%
   labs(x = "Year",
        y = "GDP per capita",
        title = "GDP per capita on Four Continents") +
-  #theme(legend.position = "none") +
-  theme(text = element_text(size = 14, family = "Futura")) +
+  theme(legend.position = "none") +
+  theme(text = element_text(size = 9, family = "Futura")) +
   theme_cleveland()
 
 ```
 
-![gdp_plot](https://github.com/ramin-asaadi/R/assets/155740766/b8ecb1f3-f69a-462d-a60a-192d1c8ab736)
+![gdp_plot](https://github.com/ramin-asaadi/R/assets/155740766/c7e2640b-efea-46e1-9ece-4ad427dea2d5)
 
 
 ```{r}
