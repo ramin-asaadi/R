@@ -5,8 +5,8 @@
 
 library(tidyverse)
 library(moderndive)
-library(extrafont)
-library(ggpubr)
+library(extrafont) #extra fonts
+library(ggpubr) #extra themes
 
 (1) GDP per capita on Four Continents
 
