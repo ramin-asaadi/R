@@ -54,7 +54,7 @@ gapminder %>%
   
 ```{r}
 
-(3) Does income affect health?
+(3) Does income affect health?; Is there a positive correltion between the two variables?
 
 gapminder %>%
   ggplot(aes(gdpPercap, lifeExp)) +
