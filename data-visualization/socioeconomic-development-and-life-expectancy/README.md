@@ -4,7 +4,6 @@
 ```{r}
 
 library(tidyverse)
-library(moderndive)
 library(extrafont) #extra fonts
 library(ggpubr) #extra themes
 
