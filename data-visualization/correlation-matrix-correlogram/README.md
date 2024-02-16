@@ -16,5 +16,19 @@ The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel
 -	gear	Number of forward gears
 -	carb	Number of carburetors
 
+```{r}
+library(ggcorrplot)
+library(corrplot)
+
+corr = round(cor(mtcars), 1)
+
+# plot
+
+corrplot(corr, method = "pie")
+
+```
+
+![Rplot03](https://github.com/ramin-asaadi/R/assets/155740766/71556639-01ed-4d41-8c73-98c607ca7010)
+
 
 
