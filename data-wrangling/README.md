@@ -1,5 +1,5 @@
 ## Data Wrangling via dplyr
-### Main Verbs:
+### 5 main Verbs:
 
 - filter() # choosing specific condition(s) to pick rows
 - summarize() # computing summary measures
