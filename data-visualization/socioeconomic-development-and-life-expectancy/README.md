@@ -66,7 +66,7 @@ gapminder %>%
        title = "Economic Growth and Life Expectancy",
        subtitle = "Data points are country-years",
        caption = "Source: Gapminder") +
-  facet_wrap(~ continent, nrow = 1) + # just one row
+  facet_wrap(~ continent, nrow = 1) +
   theme(text = element_text(size = 14, family = "Futura")) +
   theme_cleveland()
 
