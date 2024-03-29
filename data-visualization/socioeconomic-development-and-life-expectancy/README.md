@@ -68,7 +68,7 @@ gapminder %>%
        caption = "Source: Gapminder") +
   facet_wrap(~ continent, nrow = 1) +
   theme(text = element_text(size = 14, family = "Futura")) +
-  theme_cleveland()
+  theme_cleveland() #
 
 ```
 
