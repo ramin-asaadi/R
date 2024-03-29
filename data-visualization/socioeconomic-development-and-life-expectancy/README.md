@@ -7,7 +7,7 @@ library(tidyverse)
 library(extrafont) #extra fonts
 library(ggpubr) #extra themes
 
-(1) GDP per capita on Four Continents
+(1) GDP per capita on Four Continents: Europe, Africa, Americas, Asia
 
 gapminder %>%
   filter(continent %in% c("Europe", "Africa", "Americas", "Asia")) %>%
