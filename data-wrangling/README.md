@@ -6,4 +6,3 @@
 - group_by() # aggregating rows of observation
 - mutate() # creating new variables
 - arrange() # sorting the rows of oservation based on one or more variables
-
