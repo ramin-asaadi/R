@@ -1,4 +1,4 @@
-## Data Wrangling via dplyr
+## Data Wrangling using 'R' pachage 'dplyr'
 ### 5 main Verbs:
 
 - filter() # choosing specific condition(s) to pick rows
