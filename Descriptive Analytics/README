@@ -1,1 +1,37 @@
+# Descriptive Statistics 
 
+- Minimum and maximum
+- Range
+- Mean
+- Median
+- First and third quartile
+- Other quantiles
+- Interquartile range
+- Standard deviation and variance
+- Summary
+- Coefficient of variation
+- Mode
+- Correlation
+- Contingency table
+- Mosaic plot
+- Barplot
+- Histogram
+- Boxplot
+- Dotplot
+- Scatterplot
+- Line plot
+- QQ-plot
+- For a single variable
+- By groups
+- Density plot
+- Correlation plot
+- Advanced descriptive statistics
+- {summarytools} package
+- Frequency tables with freq()
+- Cross-tabulations with ctable()
+- Descriptive statistics with descr()
+- Data frame summaries with dfSummary()
+- describeBy() from the {psych} package
+- aggregate() function
+- summaryBy() from {doBy}
+- group_by() and summarise() from {dplyr}
